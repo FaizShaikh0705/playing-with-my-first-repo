@@ -25,9 +25,12 @@
             <h3>web desiginer</h3>
         </div>
         <div class="testimonal-pargraph">
-            <p><i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam non sequi eligendi ratione labore
-                    veniam necessitatibus voluptatem, molestiae soluta molestias, autem corporis laborum ad nam, dolores
-                    quae recusandae distinctio voluptas?></i></p>
+            <p>
+                <i>Lorem ipsum dolor sit amet <strong>consectetur</strong>, adipisicing elit. Totam non sequi eligendi ratione labore
+                    veniam necessitatibus voluptatem, <span style="background-color: blue; color: aliceblue;">molestiae</span> soluta molestias, autem corporis laborum ad nam, dolores
+                    quae recusandae distinctio voluptas
+                </i>
+            </p>
         </div>
     </section>
 
@@ -142,9 +145,10 @@
         <input type="password" name="password" class="password" id="password"></input>
         <br /><br />
 
-        <br /><br />
+        <br 
+        /><br />
         <label>Choose Subjects</label>
-        <input type="checkbox" name="maths" value="maths">maths</input>
+        <input type="checkbox" name="maths" value=" ">maths</input>
         <input type="checkbox" name="english" value="english">English</input>
         <input type="checkbox" name="science" value="science">science</input>
 
@@ -156,11 +160,12 @@
         <br /><br />
         <label>select course</label>
         <select>
-            <option value="" selected></option>
-            <option value="frontend">frontend</option>
+            <option value="select-course">select-course</option>
+            <option value="frontend" selected>frontend</option>
             <option value="backend">backend</option>
             <option value="fullstack">fullstack</option>
             <option value="mernstack">mernstack</option>
+            <option value="meanstack">mernstack</option>
         </select>
         <br /><br />
         <label>select date</label>
@@ -170,12 +175,12 @@
         <br /><br />
         <label>select File</label>
         <br />
-        <input type="file" /></inpup>
+        <input type="file" /></input>
         <br /><br />
         <label>Enter Message</label>
         <br />
-        <textarea type="text" placeholder="enter message....." cols="50" rows="10"></textarea>
-        <input type="submit"></input>
+        <textarea type="text" placeholder="enter message....." cols="100" rows="10"></textarea>
+        <!-- <input type="submit"></input> -->
         <!-- <button type="button">click me</button> -->
         <input type="Submit"></input>
     </form>
